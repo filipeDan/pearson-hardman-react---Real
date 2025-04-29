@@ -1,7 +1,9 @@
-import styles from './Contato.module.css';
+import styles from "./Contato.module.css";
 
-export default function Contato() {
+export function Contato() {
   return (
-    <h3>Contato</h3>
+   <>
+   
+   </>
   )
 }

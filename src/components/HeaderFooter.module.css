@@ -6,7 +6,7 @@
     color: var(--primary-text-color);
     margin-bottom: 2rem;
 }
-
+ 
 .innerHeader {
     /* padrão linha */
     display: flex;
@@ -15,21 +15,22 @@
     /* alinhamento vertical, eixo y */
     align-items: center;
 }
-
+ 
 .brand {
     background-color: var(--main-color);
     padding: 1rem;
 }
-
+ 
 .navbar {
     display: flex;
     gap: 2rem;
     text-transform: uppercase;
     margin-right: 2rem;
 }
-
+ 
 .navbar a {
     color: var(--primary-text-color);
     font-weight: bold;
     padding: 1rem;
 }
+ 
