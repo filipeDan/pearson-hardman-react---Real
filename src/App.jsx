@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from "react- router-dom"
 import {Footer} from "./components/Footer";
 import {Header} from "./components/Header";
 import {Contato, Time} from "./pages/Time";
+import {Contato, Time} from "./pages/Contato";
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
           <Routes />
           {/* pagina inicial só com header e footer */}
              <Route path="/" element={<></>} />
-             <Route path="/contato" element={<Contato />} />
+             <Route path="/Contato" element={<Contato />} />
              <Route path="/Time" element={<Time />} />
           <Routes/>
       <Footer />
