@@ -8,7 +8,7 @@ export function Contato() {
         <img src="images/office.jpg" alt="Advogados no escritório" />
       </div>
       <div id="contact-information" class="text-container">
-        <i className={bi bi-envelope}></i>
+      <i className="bi bi-envelope"></i>
         <p className={section-subtitle}>Entre em contato</p>
         <form>
           <div className={form-control}>
